@@ -1,0 +1,634 @@
+{
+  "batch_info": {
+    "batch_number": 12,
+    "queries_count": 25,
+    "query_range": "276-300"
+  },
+  "queries": [
+    {
+      "query_id": 276,
+      "user_query": "I'm 50 and trying to lose weight with a busy work schedule. Can you suggest quick Assamese meals?",
+      "user_profile": {
+        "age": 50,
+        "age_group": "adults",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegan",
+        "health_status": "healthy",
+        "goal": "weight loss",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "weight_loss",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 277,
+      "user_query": "I'm pregnant and need Maharashtrian foods that are nutritious but won't trigger nausea.",
+      "user_profile": {
+        "age": 44,
+        "age_group": "adults",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "PCOS",
+        "goal": "pregnancy nutrition",
+        "constraints": [
+          "family_needs",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "pregnancy_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 278,
+      "user_query": "I'm 52 and trying to lose weight with a busy work schedule. Can you suggest quick Gujarati meals?",
+      "user_profile": {
+        "age": 52,
+        "age_group": "adults",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "pregnant",
+        "goal": "weight loss",
+        "constraints": [
+          "health_restrictions",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "weight_loss",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 279,
+      "user_query": "I'm 47 with PCOS. What Gujarati foods help manage my symptoms?",
+      "user_profile": {
+        "age": 47,
+        "age_group": "adults",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "pregnant",
+        "goal": "PCOS management",
+        "constraints": [
+          "budget_conscious",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "PCOS_management",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 280,
+      "user_query": "I'm 29 with PCOS. What Kannada foods help manage my symptoms?",
+      "user_profile": {
+        "age": 29,
+        "age_group": "adults",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "pescatarian",
+        "health_status": "PCOS",
+        "goal": "PCOS management",
+        "constraints": [
+          "budget_conscious",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "PCOS_management",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 281,
+      "user_query": "I'm 27 with high BP. What low-sodium Maharashtrian recipes can I try?",
+      "user_profile": {
+        "age": 27,
+        "age_group": "adults",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "hypertensive",
+        "goal": "hypertension",
+        "constraints": [
+          "health_restrictions",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "hypertension",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 282,
+      "user_query": "I'm 22 and trying to lose weight with a busy work schedule. Can you suggest quick Bengali meals?",
+      "user_profile": {
+        "age": 22,
+        "age_group": "adults",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "overweight",
+        "goal": "weight loss",
+        "constraints": [
+          "family_needs",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "weight_loss",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 283,
+      "user_query": "I'm 22 with high BP. What low-sodium Gujarati recipes can I try?",
+      "user_profile": {
+        "age": 22,
+        "age_group": "adults",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "diabetic",
+        "goal": "hypertension",
+        "constraints": [
+          "family_needs",
+          "health_restrictions"
+        ]
+      },
+      "scenario_type": "hypertension",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 284,
+      "user_query": "I'm 31 with high BP. What low-sodium Assamese recipes can I try?",
+      "user_profile": {
+        "age": 31,
+        "age_group": "adults",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "pregnant",
+        "goal": "hypertension",
+        "constraints": [
+          "time_limited",
+          "health_restrictions"
+        ]
+      },
+      "scenario_type": "hypertension",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 285,
+      "user_query": "I have diabetes and want to control blood sugar while enjoying Gujarati food. What should I eat?",
+      "user_profile": {
+        "age": 55,
+        "age_group": "adults",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "pescatarian",
+        "health_status": "overweight",
+        "goal": "diabetes management",
+        "constraints": [
+          "health_restrictions",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "diabetes_management",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 286,
+      "user_query": "I'm pregnant and need Assamese foods that are nutritious but won't trigger nausea.",
+      "user_profile": {
+        "age": 54,
+        "age_group": "adults",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegan",
+        "health_status": "healthy",
+        "goal": "pregnancy nutrition",
+        "constraints": [
+          "budget_conscious",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "pregnancy_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 287,
+      "user_query": "I'm 27 and need to lose 15kg. What Kannada meal plan works for sustainable weight loss?",
+      "user_profile": {
+        "age": 27,
+        "age_group": "adults",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "pescatarian",
+        "health_status": "diabetic",
+        "goal": "weight management",
+        "constraints": [
+          "family_needs",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 288,
+      "user_query": "I'm 59 with PCOS. What Telugu foods help manage my symptoms?",
+      "user_profile": {
+        "age": 59,
+        "age_group": "adults",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "pescatarian",
+        "health_status": "healthy",
+        "goal": "PCOS management",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "PCOS_management",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 289,
+      "user_query": "I'm 34 with PCOS. What Telugu foods help manage my symptoms?",
+      "user_profile": {
+        "age": 34,
+        "age_group": "adults",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "PCOS",
+        "goal": "PCOS management",
+        "constraints": [
+          "family_needs",
+          "health_restrictions"
+        ]
+      },
+      "scenario_type": "PCOS_management",
+      "complexity": "high",
+      "expected_elements": [
+        "telugu_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 290,
+      "user_query": "I work night shifts and need Bengali meal ideas that suit my reversed schedule.",
+      "user_profile": {
+        "age": 39,
+        "age_group": "adults",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "hypertensive",
+        "goal": "shift work",
+        "constraints": [
+          "time_limited",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "shift_work",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 291,
+      "user_query": "I'm 22 hosting friends. What impressive yet healthy Kannada dishes can I make?",
+      "user_profile": {
+        "age": 22,
+        "age_group": "adults",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegan",
+        "health_status": "hypertensive",
+        "goal": "entertaining",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "entertaining",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 292,
+      "user_query": "I'm 50 and trying to lose weight with a busy work schedule. Can you suggest quick Malayalam meals?",
+      "user_profile": {
+        "age": 50,
+        "age_group": "adults",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "diabetic",
+        "goal": "weight loss",
+        "constraints": [
+          "budget_conscious",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "weight_loss",
+      "complexity": "high",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 293,
+      "user_query": "I work night shifts and need Odia meal ideas that suit my reversed schedule.",
+      "user_profile": {
+        "age": 24,
+        "age_group": "adults",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "shift work",
+        "constraints": [
+          "family_needs",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "shift_work",
+      "complexity": "high",
+      "expected_elements": [
+        "odia_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 294,
+      "user_query": "I'm 55 on a tight budget. What affordable Punjabi meals are still nutritious?",
+      "user_profile": {
+        "age": 55,
+        "age_group": "adults",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "hypertensive",
+        "goal": "budget meals",
+        "constraints": [
+          "budget_conscious",
+          "health_restrictions"
+        ]
+      },
+      "scenario_type": "budget_meals",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 295,
+      "user_query": "I have diabetes and want to control blood sugar while enjoying Telugu food. What should I eat?",
+      "user_profile": {
+        "age": 47,
+        "age_group": "adults",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "hypertensive",
+        "goal": "diabetes management",
+        "constraints": [
+          "health_restrictions",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "diabetes_management",
+      "complexity": "high",
+      "expected_elements": [
+        "telugu_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 296,
+      "user_query": "I'm training for a marathon and need Tamil foods for performance and recovery.",
+      "user_profile": {
+        "age": 36,
+        "age_group": "adults",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "pregnant",
+        "goal": "athletic performance",
+        "constraints": [
+          "health_restrictions",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "athletic_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 297,
+      "user_query": "I'm 40 on a tight budget. What affordable Kannada meals are still nutritious?",
+      "user_profile": {
+        "age": 40,
+        "age_group": "adults",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "pregnant",
+        "goal": "budget meals",
+        "constraints": [
+          "budget_conscious",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "budget_meals",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 298,
+      "user_query": "I'm 25 and need to lose 15kg. What Maharashtrian meal plan works for sustainable weight loss?",
+      "user_profile": {
+        "age": 25,
+        "age_group": "adults",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "diabetic",
+        "goal": "weight management",
+        "constraints": [
+          "budget_conscious",
+          "health_restrictions"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "high",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 299,
+      "user_query": "I'm 23 with PCOS. What Gujarati foods help manage my symptoms?",
+      "user_profile": {
+        "age": 23,
+        "age_group": "adults",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "pregnant",
+        "goal": "PCOS management",
+        "constraints": [
+          "time_limited",
+          "family_needs"
+        ]
+      },
+      "scenario_type": "PCOS_management",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    },
+    {
+      "query_id": 300,
+      "user_query": "I'm training for a marathon and need Telugu foods for performance and recovery.",
+      "user_profile": {
+        "age": 30,
+        "age_group": "adults",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "vegan",
+        "health_status": "overweight",
+        "goal": "athletic performance",
+        "constraints": [
+          "family_needs",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "athletic_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "professional_tone",
+        "evidence_based",
+        "practical_advice"
+      ]
+    }
+  ]
+}

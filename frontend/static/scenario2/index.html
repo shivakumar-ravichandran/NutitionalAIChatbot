@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Scenario 2 - Athletic Punjabi Child</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .chat-container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .chat-messages {
+            padding: 30px;
+            background: #f8f9ff;
+            min-height: 600px;
+        }
+
+        .message {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .message.user .message-content {
+            background: #ff6b6b;
+            color: white;
+            margin-left: 20px;
+        }
+
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            margin-right: 20px;
+            border: 2px solid #e1e5ff;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .user-avatar {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .bot-avatar {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .food-suggestion {
+            background: #fff8e1;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .food-suggestion h4 {
+            color: #f57c00;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .food-suggestion p {
+            color: #e65100;
+            margin-bottom: 5px;
+        }
+
+        .energy-box {
+            background: #e8f5e8;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .energy-box h4 {
+            color: #2e7d2e;
+            margin-bottom: 8px;
+        }
+
+        .energy-box p {
+            color: #1b5e20;
+            margin-bottom: 5px;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        .profile-info {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #2196f3;
+        }
+
+        .profile-info h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .profile-info span {
+            display: inline-block;
+            background: #bbdefb;
+            padding: 4px 8px;
+            border-radius: 12px;
+            margin: 2px;
+            font-size: 14px;
+            color: #0d47a1;
+        }
+
+        .sports-tips {
+            background: #fce4ec;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .sports-tips h4 {
+            color: #c2185b;
+            margin-bottom: 10px;
+        }
+
+        .sports-tips ul {
+            padding-left: 20px;
+            color: #880e4f;
+        }
+
+        .sports-tips li {
+            margin-bottom: 5px;
+        }
+
+        .lunch-box {
+            background: #f3e5f5;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            border: 2px dashed #9c27b0;
+        }
+
+        .lunch-box h4 {
+            color: #7b1fa2;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .lunch-item {
+            background: white;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border-left: 4px solid #ff9800;
+        }
+
+        .timing-guide {
+            background: #e0f2f1;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .timing-guide h4 {
+            color: #00695c;
+            margin-bottom: 10px;
+        }
+
+        .timing-guide p {
+            color: #004d40;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .message-content {
+                max-width: 85%;
+                font-size: 14px;
+            }
+            
+            .chat-container {
+                margin: 10px;
+            }
+            
+            .header h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h1>⚡ Sports NutriBot for Kids ⚡</h1>
+            <p>Energy-Packed Nutrition for Young Athletes</p>
+        </div>
+        
+        <div class="chat-messages">
+            <!-- User Profile Information -->
+            <div class="profile-info">
+                <h4>🏃‍♂️ Young Athlete Profile</h4>
+                <span>Age: 9 years</span>
+                <span>Culture: Punjabi</span>
+                <span>Location: Punjab</span>
+                <span>Diet: Vegetarian</span>
+                <span>Activity: Sports-active</span>
+                <span>Goal: Energy-rich school lunch</span>
+            </div>
+
+            <!-- User Message -->
+            <div class="message user">
+                <div class="avatar user-avatar">👨‍👩‍👧</div>
+                <div class="message-content">
+                    What should I pack for my child's school lunch that gives energy for sports?
+                </div>
+            </div>
+
+            <!-- Bot Response -->
+            <div class="message bot">
+                <div class="avatar bot-avatar">🤖</div>
+                <div class="message-content">
+                    <p>Hello! 👋 That's wonderful that your 9-year-old is so active in sports! 🏃‍♂️⚽ Let me help you pack the perfect Punjabi energy lunch that will fuel those amazing athletic adventures! 💪✨</p>
+
+                    <div class="food-suggestion">
+                        <h4>🌟 Star Lunch: Athletic Chole Kulcha Wrap</h4>
+                        <p><strong>What it is:</strong> Soft kulcha wrapped around protein-rich chole filling</p>
+                        <p><strong>Sports benefit:</strong> High protein (15g) + complex carbs for muscle energy! 💪</p>
+                        <p><strong>Kid appeal:</strong> Easy to eat, no mess, tastes like their favorite restaurant food!</p>
+                        <p><strong>Energy timing:</strong> Perfect 2-3 hours before sports activities</p>
+                    </div>
+
+
+                    <p><strong>🏅 Punjabi Sports Wisdom:</strong> In Punjabi culture, we say "Health is Life"! These traditional foods have powered Punjabi athletes for generations - from kabaddi champions to Olympic wrestlers! 🤼‍♂️</p>
+
+                    <p><strong>💡 Special Athlete Tip:</strong> Create a "Champion's Chart" where your child tracks energy levels after different lunch combinations. They'll learn to fuel their body like a real sports scientist! 📊⚡</p>
+
+                    <p>Your young athlete is going to perform amazingly with this power-packed nutrition! Keep encouraging their sports passion - proper fuel makes all the difference! 🌟🏆</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

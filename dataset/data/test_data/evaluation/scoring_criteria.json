@@ -1,0 +1,205 @@
+{
+  "cultural_appropriateness": {
+    "description": "Evaluates how well responses respect and incorporate cultural food practices, traditions, and preferences",
+    "scoring_scale": "0-100 points",
+    "criteria": {
+      "food_authenticity": {
+        "weight": 30,
+        "description": "Accuracy of cultural food representations and recipes",
+        "excellent": "90-100: Perfect representation of authentic cultural dishes",
+        "good": "70-89: Generally accurate with minor cultural adaptations",
+        "acceptable": "50-69: Some cultural elements present but may lack authenticity",
+        "poor": "0-49: Incorrect or culturally inappropriate food suggestions"
+      },
+      "cultural_sensitivity": {
+        "weight": 25,
+        "description": "Respect for dietary practices, religious restrictions, and cultural traditions",
+        "excellent": "90-100: Deep understanding and respect for cultural practices",
+        "good": "70-89: Good awareness with appropriate considerations",
+        "acceptable": "50-69: Basic cultural awareness with some gaps",
+        "poor": "0-49: Lacks cultural sensitivity or shows inappropriate suggestions"
+      },
+      "local_availability": {
+        "weight": 25,
+        "description": "Consideration of regional food availability and accessibility",
+        "excellent": "90-100: Perfect alignment with regional food availability",
+        "good": "70-89: Good consideration of local ingredients",
+        "acceptable": "50-69: Some awareness of regional differences",
+        "poor": "0-49: Ignores local availability constraints"
+      },
+      "language_appropriateness": {
+        "weight": 20,
+        "description": "Use of culturally relevant terminology and expressions",
+        "excellent": "90-100: Natural use of cultural food terms and phrases",
+        "good": "70-89: Good integration of cultural language",
+        "acceptable": "50-69: Some cultural terms used appropriately",
+        "poor": "0-49: Generic language without cultural context"
+      }
+    }
+  },
+  "age_specific_communication": {
+    "description": "Assesses appropriateness of communication style, tone, and complexity for different age groups",
+    "scoring_scale": "0-100 points",
+    "criteria": {
+      "language_complexity": {
+        "weight": 30,
+        "description": "Appropriateness of vocabulary and sentence structure for age group",
+        "children": {
+          "excellent": "Simple, playful language with age-appropriate vocabulary",
+          "poor": "Complex medical terms or adult-focused explanations"
+        },
+        "teenagers": {
+          "excellent": "Engaging, motivational language that resonates with teens",
+          "poor": "Condescending tone or overly childish language"
+        },
+        "adults": {
+          "excellent": "Professional, informative tone with appropriate depth",
+          "poor": "Overly simplified or unnecessarily complex explanations"
+        },
+        "elderly": {
+          "excellent": "Respectful, clear communication with health focus",
+          "poor": "Condescending tone or overly complex medical jargon"
+        }
+      },
+      "tone_appropriateness": {
+        "weight": 25,
+        "description": "Matching communication tone to age-specific expectations",
+        "children": "Encouraging, fun, educational",
+        "teenagers": "Motivational, peer-aware, empowering",
+        "adults": "Professional, goal-oriented, evidence-based",
+        "elderly": "Respectful, supportive, health-conscious"
+      },
+      "content_structure": {
+        "weight": 25,
+        "description": "Organization and presentation of information",
+        "children": "Visual elements, step-by-step, interactive suggestions",
+        "teenagers": "Bullet points, practical tips, lifestyle integration",
+        "adults": "Structured information, options, detailed explanations",
+        "elderly": "Clear headings, prioritized information, safety emphasis"
+      },
+      "engagement_factors": {
+        "weight": 20,
+        "description": "Elements that maintain age-appropriate interest and motivation",
+        "children": "Emojis, games, family involvement",
+        "teenagers": "Trends, social aspects, independence building",
+        "adults": "Goal achievement, efficiency, evidence-based benefits",
+        "elderly": "Health benefits, simplicity, safety assurance"
+      }
+    }
+  },
+  "nutritional_accuracy": {
+    "description": "Validates correctness and safety of nutritional recommendations",
+    "scoring_scale": "0-100 points",
+    "criteria": {
+      "nutritional_completeness": {
+        "weight": 30,
+        "description": "Meeting age and condition-specific dietary requirements",
+        "excellent": "90-100: Comprehensive nutritional profile meeting all needs",
+        "good": "70-89: Good nutritional balance with minor gaps",
+        "acceptable": "50-69: Basic nutritional needs addressed",
+        "poor": "0-49: Significant nutritional deficiencies or imbalances"
+      },
+      "safety_compliance": {
+        "weight": 30,
+        "description": "Avoiding contraindicated foods and unsafe practices",
+        "excellent": "90-100: Perfect safety awareness with appropriate cautions",
+        "good": "70-89: Good safety considerations with minor oversights",
+        "acceptable": "50-69: Basic safety awareness",
+        "poor": "0-49: Safety risks or contraindicated recommendations"
+      },
+      "portion_appropriateness": {
+        "weight": 20,
+        "description": "Age and condition-appropriate serving sizes",
+        "excellent": "90-100: Perfect portion guidance for age/condition",
+        "good": "70-89: Generally appropriate portions",
+        "acceptable": "50-69: Basic portion awareness",
+        "poor": "0-49: Inappropriate or missing portion guidance"
+      },
+      "scientific_accuracy": {
+        "weight": 20,
+        "description": "Correctness of nutritional claims and health benefits",
+        "excellent": "90-100: Evidence-based claims with accurate health information",
+        "good": "70-89: Generally accurate with minor inaccuracies",
+        "acceptable": "50-69: Basic accuracy with some questionable claims",
+        "poor": "0-49: Inaccurate or misleading nutritional information"
+      }
+    }
+  },
+  "response_quality": {
+    "description": "Overall effectiveness and helpfulness of the chatbot response",
+    "scoring_scale": "0-100 points",
+    "criteria": {
+      "query_understanding": {
+        "weight": 25,
+        "description": "Accuracy in interpreting user intent and context",
+        "excellent": "Perfect understanding of all query elements",
+        "poor": "Misinterpretation of key query components"
+      },
+      "completeness": {
+        "weight": 25,
+        "description": "Thoroughness in addressing all aspects of the query",
+        "excellent": "Comprehensive response covering all user needs",
+        "poor": "Partial response missing key elements"
+      },
+      "practicality": {
+        "weight": 25,
+        "description": "Actionability and real-world applicability of suggestions",
+        "excellent": "Highly practical with clear implementation steps",
+        "poor": "Theoretical suggestions difficult to implement"
+      },
+      "personalization": {
+        "weight": 25,
+        "description": "Customization based on user profile and constraints",
+        "excellent": "Highly personalized considering all user factors",
+        "poor": "Generic response ignoring user specifics"
+      }
+    }
+  },
+  "evaluation_process": {
+    "human_evaluation": {
+      "description": "Expert assessment by nutritionists, cultural experts, and age-group specialists",
+      "process": [
+        "Independent scoring by 3 evaluators per response",
+        "Discussion and consensus for disputed scores",
+        "Final score averaging across evaluators",
+        "Inter-rater reliability calculation"
+      ],
+      "evaluator_qualifications": {
+        "nutritionist": "Certified nutritional expert with 5+ years experience",
+        "cultural_expert": "Native speaker/cultural practitioner with food expertise",
+        "age_specialist": "Child development, adult psychology, or geriatric specialist"
+      }
+    },
+    "automated_evaluation": {
+      "description": "Computational metrics for scalable assessment",
+      "metrics": [
+        "Cultural keyword detection",
+        "Age-appropriate language analysis",
+        "Nutritional database fact-checking",
+        "Safety contraindication screening"
+      ]
+    }
+  },
+  "benchmark_targets": {
+    "cultural_appropriateness": {
+      "excellent": "> 85 average score",
+      "acceptable": "> 70 average score",
+      "minimum": "> 60 average score"
+    },
+    "age_specific_communication": {
+      "children": "> 90 average score",
+      "teenagers": "> 85 average score",
+      "adults": "> 88 average score",
+      "elderly": "> 92 average score"
+    },
+    "nutritional_accuracy": {
+      "safety_critical": "> 95 average score",
+      "general_accuracy": "> 85 average score",
+      "completeness": "> 80 average score"
+    },
+    "overall_response_quality": {
+      "target": "> 85 average score across all dimensions",
+      "minimum": "> 75 average score for deployment readiness"
+    }
+  }
+}

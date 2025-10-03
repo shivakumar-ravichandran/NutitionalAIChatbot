@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Scenarios - Nutritional AI Chatbot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+
+        .scenario-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .scenario-card {
+            background: #f8f9ff;
+            border: 2px solid #e1e5ff;
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .scenario-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .scenario-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .scenario-card .profile {
+            background: #e8f5e8;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+        }
+
+        .scenario-card .query {
+            background: #fff3e0;
+            padding: 10px;
+            border-radius: 8px;
+            font-style: italic;
+            color: #e65100;
+            margin-bottom: 15px;
+        }
+
+        .scenario-card .features {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .scenario-card .features span {
+            display: inline-block;
+            background: #c8e6c9;
+            padding: 3px 8px;
+            border-radius: 12px;
+            margin: 2px;
+            font-size: 0.8em;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+
+        .coming-soon {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .coming-soon .btn {
+            background: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .scenario-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Evaluation Scenarios</h1>
+        <p class="subtitle">Culturally Aware, Age-Specific AI Nutrition Chatbot</p>
+        
+        <div class="scenario-grid">
+            <!-- Scenario 1: Available -->
+            <div class="scenario-card" onclick="window.open('scenario1/', '_blank')">
+                <h3>👶 Scenario 1: Picky Eater Tamil Child</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 7-year-old Tamil child, vegetarian, picky eater
+                </div>
+                <div class="query">
+                    "My child doesn't like vegetables. What can I make that's yummy and healthy?"
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Playful Communication</span>
+                    <span>Tamil Cuisine</span>
+                    <span>Hidden Vegetables</span>
+                    <span>Parent Tips</span>
+                </div>
+                <a href="scenario1/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+
+            <!-- Scenario 2: Available -->
+            <div class="scenario-card" onclick="window.open('scenario2/', '_blank')">
+                <h3>🏃 Scenario 2: Athletic Punjabi Child</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 9-year-old Punjabi child, active in sports, needs energy-rich lunch
+                </div>
+                <div class="query">
+                    "What should I pack for my child's school lunch that gives energy for sports?"
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Sports Nutrition</span>
+                    <span>Punjabi Cuisine</span>
+                    <span>Energy Timing</span>
+                    <span>Athletic Performance</span>
+                </div>
+                <a href="scenario2/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+
+            <!-- Scenario 3: Available -->
+            <div class="scenario-card" onclick="window.open('scenario3/', '_blank')">
+                <h3>💼 Scenario 3: Busy Professional Weight Loss</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 32-year-old Maharashtrian professional, weight management
+                </div>
+                <div class="query">
+                    "I'm trying to lose weight with a busy schedule. Quick Maharashtrian meals?"
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Professional Tone</span>
+                    <span>Maharashtrian Cuisine</span>
+                    <span>Time-Efficient</span>
+                    <span>Weight Management</span>
+                </div>
+                <a href="scenario3/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+
+            <!-- Scenario 4: Available -->
+            <div class="scenario-card" onclick="window.open('scenario4/', '_blank')">
+                <h3>💊 Scenario 4: Diabetic Kerala Adult</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 45-year-old Kerala resident, Type 2 diabetes
+                </div>
+                <div class="query">
+                    "I have diabetes and want to enjoy Kerala food while controlling blood sugar."
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Medical Focus</span>
+                    <span>Kerala Cuisine</span>
+                    <span>Glycemic Control</span>
+                    <span>Traditional Adaptation</span>
+                </div>
+                <a href="scenario4/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+
+            <!-- Scenario 5: Coming Soon -->
+            <div class="scenario-card coming-soon">
+                <h3>🤱 Scenario 5: Pregnant Bengali Woman</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 28-year-old Bengali woman, 2nd trimester pregnancy
+                </div>
+                <div class="query">
+                    "I'm pregnant and need Bengali foods that won't trigger nausea."
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Pregnancy Focus</span>
+                    <span>Bengali Cuisine</span>
+                    <span>Nausea Management</span>
+                    <span>Nutritional Density</span>
+                </div>
+                <span class="btn">Coming Soon</span>
+            </div>
+
+            <!-- Scenario 6: Available -->
+            <div class="scenario-card" onclick="window.open('scenario6/', '_blank')">
+                <h3>❤️ Scenario 6: Heart Health Gujarati Elder</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 68-year-old Gujarati elder, heart condition
+                </div>
+                <div class="query">
+                    "Doctor said I need less salt for my heart. What Gujarati food can I enjoy?"
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Respectful Tone</span>
+                    <span>Gujarati Cuisine</span>
+                    <span>Heart Health</span>
+                    <span>Low Sodium</span>
+                </div>
+                <a href="scenario6/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+
+            <!-- Scenario 7: Available -->
+            <div class="scenario-card" onclick="window.open('scenario7/', '_blank')">
+                <h3>🌿 Scenario 7: Digestive Health Tamil Elder</h3>
+                <div class="profile">
+                    <strong>Profile:</strong> 72-year-old Tamil elder, digestive issues, reduced appetite
+                </div>
+                <div class="query">
+                    "I have trouble digesting food lately. What Tamil foods are easy on the stomach but still nutritious?"
+                </div>
+                <div class="features">
+                    <strong>Features:</strong>
+                    <span>Gentle Communication</span>
+                    <span>Tamil Cuisine</span>
+                    <span>Digestive Care</span>
+                    <span>Soft Foods</span>
+                </div>
+                <a href="scenario7/" class="btn" target="_blank">View Scenario →</a>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; text-align: center; color: #666;">
+            <p><strong>Evaluation Framework:</strong> Each scenario demonstrates cultural appropriateness, age-specific communication, nutritional accuracy, and response quality as outlined in Chapter 6 of the thesis.</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                📊 <strong>Dataset:</strong> 500 diverse queries | 
+                🌍 <strong>Cultures:</strong> 10 Indian regions | 
+                👥 <strong>Age Groups:</strong> Children to Elderly | 
+                🎯 <strong>Scenarios:</strong> 33 unique types
+            </p>
+        </div>
+    </div>
+</body>
+</html>

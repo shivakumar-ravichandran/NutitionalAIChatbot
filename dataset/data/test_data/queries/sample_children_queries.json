@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": 1,
+    "user_query": "My 4-year-old doesn't like vegetables. What Tamil food can I make that's healthy and tasty?",
+    "user_profile": {
+      "age": 4,
+      "age_group": "children",
+      "culture": "Tamil",
+      "location": "Tamil Nadu",
+      "dietary_preference": "vegetarian",
+      "health_status": "healthy",
+      "goal": "increase vegetable intake",
+      "constraints": ["picky_eater"]
+    },
+    "scenario_type": "picky_eating",
+    "complexity": "medium",
+    "expected_elements": [
+      "playful_tone",
+      "tamil_dishes",
+      "hidden_vegetables",
+      "fun_preparation"
+    ]
+  },
+  {
+    "query_id": 2,
+    "user_query": "What Punjabi breakfast can I give my 3-year-old for energy?",
+    "user_profile": {
+      "age": 3,
+      "age_group": "children",
+      "culture": "Punjabi",
+      "location": "Punjab",
+      "dietary_preference": "vegetarian",
+      "health_status": "active",
+      "goal": "energy_rich_foods",
+      "constraints": ["small_portions"]
+    },
+    "scenario_type": "energy_nutrition",
+    "complexity": "low",
+    "expected_elements": [
+      "child_friendly_language",
+      "punjabi_breakfast",
+      "energy_foods",
+      "portion_guidance"
+    ]
+  },
+  {
+    "query_id": 3,
+    "user_query": "My toddler is constipated. What Bengali foods help with digestion?",
+    "user_profile": {
+      "age": 5,
+      "age_group": "children",
+      "culture": "Bengali",
+      "location": "West Bengal",
+      "dietary_preference": "non_vegetarian",
+      "health_status": "digestive_issues",
+      "goal": "improve_digestion",
+      "constraints": ["medical_concern"]
+    },
+    "scenario_type": "health_issue",
+    "complexity": "high",
+    "expected_elements": [
+      "health_focused",
+      "bengali_foods",
+      "fiber_rich",
+      "gentle_suggestions"
+    ]
+  },
+  {
+    "query_id": 4,
+    "user_query": "What should I pack for my 8-year-old's lunch that gives energy for sports?",
+    "user_profile": {
+      "age": 8,
+      "age_group": "children",
+      "culture": "Punjabi",
+      "location": "Punjab",
+      "dietary_preference": "vegetarian",
+      "health_status": "athletic",
+      "goal": "sports_nutrition",
+      "constraints": ["school_lunch", "energy_needs"]
+    },
+    "scenario_type": "athletic_nutrition",
+    "complexity": "medium",
+    "expected_elements": [
+      "energy_foods",
+      "portable_lunch",
+      "sports_nutrition",
+      "punjabi_cuisine"
+    ]
+  },
+  {
+    "query_id": 5,
+    "user_query": "My 10-year-old daughter is underweight. What Kerala foods can help her gain healthy weight?",
+    "user_profile": {
+      "age": 10,
+      "age_group": "children",
+      "culture": "Malayalam",
+      "location": "Kerala",
+      "dietary_preference": "non_vegetarian",
+      "health_status": "underweight",
+      "goal": "healthy_weight_gain",
+      "constraints": ["medical_supervision"]
+    },
+    "scenario_type": "weight_management",
+    "complexity": "high",
+    "expected_elements": [
+      "weight_gain_foods",
+      "kerala_cuisine",
+      "calorie_dense",
+      "balanced_nutrition"
+    ]
+  }
+]

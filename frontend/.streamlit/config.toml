@@ -1,0 +1,46 @@
+[theme]
+# Primary colors - Green theme for nutrition/health focus
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[server]
+# Server configuration
+port = 8501
+baseUrlPath = ""
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+showErrorDetails = true
+
+[global]
+# Global settings
+developmentMode = false
+logLevel = "info"
+suppressDeprecationWarnings = false
+showWarningOnDirectExecution = true
+
+[client]
+# Client settings
+caching = true
+displayEnabled = true
+showErrorDetails = true
+
+[runner]
+# Runner configuration
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+postScriptGC = true
+fastReruns = true
+enforceSerializableSessionState = false
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s %(message)s"

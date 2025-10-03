@@ -1,0 +1,634 @@
+{
+  "batch_info": {
+    "batch_number": 5,
+    "queries_count": 25,
+    "query_range": "101-125"
+  },
+  "queries": [
+    {
+      "query_id": 101,
+      "user_query": "I'm 17 and want to cook my own Malayalam meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "stressed",
+        "goal": "independence",
+        "constraints": [
+          "independence",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 102,
+      "user_query": "I'm 16 and friends eat junk. What cool Gujarati alternatives can I choose?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "acne",
+        "goal": "peer pressure",
+        "constraints": [
+          "busy_schedule",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 103,
+      "user_query": "I'm 17 and friends eat junk. What cool Kannada alternatives can I choose?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "growing",
+        "goal": "peer pressure",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 104,
+      "user_query": "I'm 16 and want to look fit. What Malayalam foods help with a healthy body?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "stressed",
+        "goal": "body image",
+        "constraints": [
+          "busy_schedule",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 105,
+      "user_query": "I'm 16 and want to cook my own Bengali meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "healthy",
+        "goal": "independence",
+        "constraints": [
+          "peer_pressure",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 106,
+      "user_query": "I'm 14 and friends eat junk. What cool Assamese alternatives can I choose?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "acne",
+        "goal": "peer pressure",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 107,
+      "user_query": "I'm 15 and friends eat junk. What cool Odia alternatives can I choose?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "growing",
+        "goal": "peer pressure",
+        "constraints": [
+          "busy_schedule",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 108,
+      "user_query": "I'm 15 and growing fast. What Telugu foods support my growth?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "athletic",
+        "goal": "growth spurt",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 109,
+      "user_query": "I'm 16 and friends eat junk. What cool Tamil alternatives can I choose?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "peer pressure",
+        "constraints": [
+          "limited_budget",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 110,
+      "user_query": "I'm 16 and friends eat junk. What cool Odia alternatives can I choose?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "stressed",
+        "goal": "peer pressure",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 111,
+      "user_query": "I'm 16 and friends eat junk. What cool Kannada alternatives can I choose?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "growing",
+        "goal": "peer pressure",
+        "constraints": [
+          "peer_pressure",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 112,
+      "user_query": "I'm 14 with board exams. What Assamese brain foods help with studying?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "growing",
+        "goal": "exam stress",
+        "constraints": [
+          "limited_budget",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "exam_stress",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 113,
+      "user_query": "I'm 14 and friends eat junk. What cool Bengali alternatives can I choose?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "athletic",
+        "goal": "peer pressure",
+        "constraints": [
+          "limited_budget",
+          "independence"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 114,
+      "user_query": "I'm 15 and friends eat junk. What cool Assamese alternatives can I choose?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "growing",
+        "goal": "peer pressure",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 115,
+      "user_query": "I'm 13 and friends eat junk. What cool Kannada alternatives can I choose?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "peer pressure",
+        "constraints": [
+          "limited_budget",
+          "independence"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 116,
+      "user_query": "I'm 13 and want to cook my own Odia meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "growing",
+        "goal": "independence",
+        "constraints": [
+          "peer_pressure",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 117,
+      "user_query": "I'm 15 and want to cook my own Assamese meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "independence",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 118,
+      "user_query": "I'm 16 with board exams. What Maharashtrian brain foods help with studying?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "athletic",
+        "goal": "exam stress",
+        "constraints": [
+          "peer_pressure",
+          "independence"
+        ]
+      },
+      "scenario_type": "exam_stress",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 119,
+      "user_query": "I'm 15 with acne problems. What Kannada foods are good for clear skin?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "growing",
+        "goal": "acne nutrition",
+        "constraints": [
+          "busy_schedule",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 120,
+      "user_query": "I'm 16 and play cricket. What Maharashtrian foods boost my performance?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "growing",
+        "goal": "sports performance",
+        "constraints": [
+          "limited_budget",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "sports_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 121,
+      "user_query": "I'm 14 with board exams. What Assamese brain foods help with studying?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "athletic",
+        "goal": "exam stress",
+        "constraints": [
+          "peer_pressure",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "exam_stress",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 122,
+      "user_query": "I'm 17 with board exams. What Gujarati brain foods help with studying?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "athletic",
+        "goal": "exam stress",
+        "constraints": [
+          "peer_pressure",
+          "independence"
+        ]
+      },
+      "scenario_type": "exam_stress",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 123,
+      "user_query": "I'm 14 and want to look fit. What Kannada foods help with a healthy body?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "growing",
+        "goal": "body image",
+        "constraints": [
+          "busy_schedule",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 124,
+      "user_query": "I'm 15 and friends eat junk. What cool Assamese alternatives can I choose?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "peer pressure",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "peer_pressure",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 125,
+      "user_query": "I'm 17 and want to look fit. What Tamil foods help with a healthy body?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "growing",
+        "goal": "body image",
+        "constraints": [
+          "independence",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    }
+  ]
+}

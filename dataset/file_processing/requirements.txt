@@ -1,0 +1,57 @@
+# File Processing Module Requirements
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+
+# PDF processing
+PyPDF2>=3.0.0
+pdfplumber>=0.7.0
+
+# Document processing
+python-docx>=0.8.11
+markdown>=3.4.0
+
+# Data processing
+openpyxl>=3.0.9
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+
+# OCR capabilities (for scanned PDFs)
+# pytesseract>=0.3.10
+# Pillow>=9.0.0
+
+# Natural language processing
+# nltk>=3.8
+# spacy>=3.4.0
+
+# Advanced text processing
+# textract>=1.6.5
+# python-magic>=0.4.27
+
+# Machine learning (for content classification)
+# scikit-learn>=1.1.0
+
+# Web scraping (if processing online documents)
+# requests>=2.28.0
+# beautifulsoup4>=4.11.0
+
+# Database connectivity (if saving to databases)
+# sqlalchemy>=1.4.0
+# psycopg2-binary>=2.9.0
+
+# Progress bars and UI
+# tqdm>=4.64.0
+
+# Configuration management
+# pyyaml>=6.0
+# python-dotenv>=0.20.0
+
+# Logging enhancements
+# structlog>=22.1.0
+# colorama>=0.4.5

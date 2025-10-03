@@ -1,0 +1,634 @@
+{
+  "batch_info": {
+    "batch_number": 3,
+    "queries_count": 25,
+    "query_range": "51-75"
+  },
+  "queries": [
+    {
+      "query_id": 51,
+      "user_query": "What Telugu breakfast can I give my 7-year-old for energy?",
+      "user_profile": {
+        "age": 7,
+        "age_group": "children",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "energy nutrition",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 52,
+      "user_query": "What Gujarati breakfast can I give my 5-year-old for energy?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "energy nutrition",
+        "constraints": [
+          "picky_eater",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 53,
+      "user_query": "My 5-year-old doesn't like vegetables. What Tamil food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "picky eating",
+        "constraints": [
+          "school_requirements",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "high",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 54,
+      "user_query": "My 3-year-old loves sweets. What healthy Odia sweet options can I give?",
+      "user_profile": {
+        "age": 3,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "picky_eater",
+        "goal": "healthy alternatives",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "healthy_alternatives",
+      "complexity": "low",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 55,
+      "user_query": "My 9-year-old doesn't like vegetables. What Tamil food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "allergies",
+        "goal": "picky eating",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "low",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 56,
+      "user_query": "What Kannada snacks are good for my 10-year-old's school tiffin?",
+      "user_profile": {
+        "age": 10,
+        "age_group": "children",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active",
+        "goal": "school nutrition",
+        "constraints": [
+          "school_requirements",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "low",
+      "expected_elements": [
+        "kannada_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 57,
+      "user_query": "What Gujarati snacks are good for my 12-year-old's school tiffin?",
+      "user_profile": {
+        "age": 12,
+        "age_group": "children",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "school nutrition",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 58,
+      "user_query": "My 5-year-old loves sweets. What healthy Telugu sweet options can I give?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "healthy alternatives",
+        "constraints": [
+          "school_requirements",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "healthy_alternatives",
+      "complexity": "low",
+      "expected_elements": [
+        "telugu_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 59,
+      "user_query": "What finger foods from Kannada cuisine are good for my 10-year-old's birthday party?",
+      "user_profile": {
+        "age": 10,
+        "age_group": "children",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "picky_eater",
+        "goal": "special occasion",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 60,
+      "user_query": "What Assamese breakfast can I give my 5-year-old for energy?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "underweight",
+        "goal": "energy nutrition",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "low",
+      "expected_elements": [
+        "assamese_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 61,
+      "user_query": "What Maharashtrian snacks are good for my 8-year-old's school tiffin?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "school nutrition",
+        "constraints": [
+          "school_requirements",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 62,
+      "user_query": "What Kannada breakfast can I give my 4-year-old for energy?",
+      "user_profile": {
+        "age": 4,
+        "age_group": "children",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "picky_eater",
+        "goal": "energy nutrition",
+        "constraints": [
+          "school_requirements",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 63,
+      "user_query": "What finger foods from Maharashtrian cuisine are good for my 8-year-old's birthday party?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "special occasion",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 64,
+      "user_query": "My 12-year-old is underweight. What Gujarati foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 12,
+        "age_group": "children",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "underweight",
+        "goal": "weight management",
+        "constraints": [
+          "school_requirements",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 65,
+      "user_query": "My 9-year-old is underweight. What Malayalam foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "weight management",
+        "constraints": [
+          "picky_eater",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "high",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 66,
+      "user_query": "My 5-year-old loves sweets. What healthy Odia sweet options can I give?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active",
+        "goal": "healthy alternatives",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "healthy_alternatives",
+      "complexity": "high",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 67,
+      "user_query": "My 8-year-old is underweight. What Odia foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "underweight",
+        "goal": "weight management",
+        "constraints": [
+          "budget_conscious",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "low",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 68,
+      "user_query": "What Malayalam snacks are good for my 5-year-old's school tiffin?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "school nutrition",
+        "constraints": [
+          "picky_eater",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 69,
+      "user_query": "What Odia snacks are good for my 9-year-old's school tiffin?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "school nutrition",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "low",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 70,
+      "user_query": "What should I pack for my 7-year-old's lunch that gives energy for sports?",
+      "user_profile": {
+        "age": 7,
+        "age_group": "children",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "picky_eater",
+        "goal": "athletic nutrition",
+        "constraints": [
+          "picky_eater",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "athletic_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 71,
+      "user_query": "My 6-year-old doesn't like vegetables. What Tamil food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 6,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "picky eating",
+        "constraints": [
+          "budget_conscious",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 72,
+      "user_query": "What Assamese breakfast can I give my 11-year-old for energy?",
+      "user_profile": {
+        "age": 11,
+        "age_group": "children",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "energy nutrition",
+        "constraints": [
+          "budget_conscious",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 73,
+      "user_query": "My 4-year-old doesn't like vegetables. What Gujarati food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 4,
+        "age_group": "children",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "picky eating",
+        "constraints": [
+          "school_requirements",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 74,
+      "user_query": "My 12-year-old doesn't like vegetables. What Telugu food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 12,
+        "age_group": "children",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "allergies",
+        "goal": "picky eating",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "low",
+      "expected_elements": [
+        "telugu_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 75,
+      "user_query": "What finger foods from Odia cuisine are good for my 3-year-old's birthday party?",
+      "user_profile": {
+        "age": 3,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "allergies",
+        "goal": "special occasion",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    }
+  ]
+}

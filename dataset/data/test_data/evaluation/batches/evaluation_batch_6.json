@@ -1,0 +1,634 @@
+{
+  "batch_info": {
+    "batch_number": 6,
+    "queries_count": 25,
+    "query_range": "126-150"
+  },
+  "queries": [
+    {
+      "query_id": 126,
+      "user_query": "I'm 16 and growing fast. What Bengali foods support my growth?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "growing",
+        "goal": "growth spurt",
+        "constraints": [
+          "peer_pressure",
+          "independence"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 127,
+      "user_query": "I'm 15 with acne problems. What Bengali foods are good for clear skin?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "stressed",
+        "goal": "acne nutrition",
+        "constraints": [
+          "independence",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 128,
+      "user_query": "I'm 13 and want to cook my own Punjabi meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "stressed",
+        "goal": "independence",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 129,
+      "user_query": "I'm 16 and growing fast. What Gujarati foods support my growth?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "athletic",
+        "goal": "growth spurt",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 130,
+      "user_query": "I'm 16 with acne problems. What Kannada foods are good for clear skin?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "acne nutrition",
+        "constraints": [
+          "limited_budget",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 131,
+      "user_query": "I'm 15 and want to look fit. What Bengali foods help with a healthy body?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "stressed",
+        "goal": "body image",
+        "constraints": [
+          "peer_pressure",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 132,
+      "user_query": "I'm 14 and want to cook my own Malayalam meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "acne",
+        "goal": "independence",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 133,
+      "user_query": "I'm 17 with acne problems. What Gujarati foods are good for clear skin?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "athletic",
+        "goal": "acne nutrition",
+        "constraints": [
+          "limited_budget",
+          "independence"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 134,
+      "user_query": "I'm 17 and growing fast. What Odia foods support my growth?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "stressed",
+        "goal": "growth spurt",
+        "constraints": [
+          "peer_pressure",
+          "independence"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 135,
+      "user_query": "I'm 16 and growing fast. What Tamil foods support my growth?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "acne",
+        "goal": "growth spurt",
+        "constraints": [
+          "busy_schedule",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 136,
+      "user_query": "I'm 13 and want to look fit. What Kannada foods help with a healthy body?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "body image",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 137,
+      "user_query": "I'm 16 with board exams. What Kannada brain foods help with studying?",
+      "user_profile": {
+        "age": 16,
+        "age_group": "teenagers",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "acne",
+        "goal": "exam stress",
+        "constraints": [
+          "limited_budget",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "exam_stress",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 138,
+      "user_query": "I'm 13 and want to look fit. What Punjabi foods help with a healthy body?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "acne",
+        "goal": "body image",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 139,
+      "user_query": "I'm 13 and want to look fit. What Bengali foods help with a healthy body?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "athletic",
+        "goal": "body image",
+        "constraints": [
+          "peer_pressure",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 140,
+      "user_query": "I'm 15 and play cricket. What Gujarati foods boost my performance?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "acne",
+        "goal": "sports performance",
+        "constraints": [
+          "limited_budget",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "sports_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 141,
+      "user_query": "I'm 15 and growing fast. What Odia foods support my growth?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "acne",
+        "goal": "growth spurt",
+        "constraints": [
+          "limited_budget",
+          "busy_schedule"
+        ]
+      },
+      "scenario_type": "growth_spurt",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 142,
+      "user_query": "I'm 17 and want to look fit. What Odia foods help with a healthy body?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "athletic",
+        "goal": "body image",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 143,
+      "user_query": "I'm 14 with acne problems. What Tamil foods are good for clear skin?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "athletic",
+        "goal": "acne nutrition",
+        "constraints": [
+          "busy_schedule",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 144,
+      "user_query": "I'm 13 and play cricket. What Assamese foods boost my performance?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "acne",
+        "goal": "sports performance",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "sports_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 145,
+      "user_query": "I'm 15 and play cricket. What Odia foods boost my performance?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "healthy",
+        "goal": "sports performance",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "sports_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 146,
+      "user_query": "I'm 13 and want to look fit. What Tamil foods help with a healthy body?",
+      "user_profile": {
+        "age": 13,
+        "age_group": "teenagers",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "athletic",
+        "goal": "body image",
+        "constraints": [
+          "independence",
+          "peer_pressure"
+        ]
+      },
+      "scenario_type": "body_image",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 147,
+      "user_query": "I'm 15 and want to cook my own Punjabi meals. What's easy and healthy?",
+      "user_profile": {
+        "age": 15,
+        "age_group": "teenagers",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "growing",
+        "goal": "independence",
+        "constraints": [
+          "busy_schedule",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "independence",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 148,
+      "user_query": "I'm 14 with acne problems. What Bengali foods are good for clear skin?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "acne",
+        "goal": "acne nutrition",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 149,
+      "user_query": "I'm 14 with acne problems. What Maharashtrian foods are good for clear skin?",
+      "user_profile": {
+        "age": 14,
+        "age_group": "teenagers",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "athletic",
+        "goal": "acne nutrition",
+        "constraints": [
+          "busy_schedule",
+          "limited_budget"
+        ]
+      },
+      "scenario_type": "acne_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    },
+    {
+      "query_id": 150,
+      "user_query": "I'm 17 and play cricket. What Bengali foods boost my performance?",
+      "user_profile": {
+        "age": 17,
+        "age_group": "teenagers",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "flexitarian",
+        "health_status": "acne",
+        "goal": "sports performance",
+        "constraints": [
+          "busy_schedule",
+          "independence"
+        ]
+      },
+      "scenario_type": "sports_performance",
+      "complexity": "medium",
+      "expected_elements": [
+        "bengali_cuisine",
+        "teen_friendly",
+        "motivational",
+        "peer_aware"
+      ]
+    }
+  ]
+}

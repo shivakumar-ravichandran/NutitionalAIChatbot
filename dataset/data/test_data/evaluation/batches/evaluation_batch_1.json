@@ -1,0 +1,634 @@
+{
+  "batch_info": {
+    "batch_number": 1,
+    "queries_count": 25,
+    "query_range": "1-25"
+  },
+  "queries": [
+    {
+      "query_id": 1,
+      "user_query": "My toddler is constipated. What Odia foods help with digestion?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "digestive health",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 2,
+      "user_query": "What iron-rich Punjabi foods can I give my 3-year-old who has low hemoglobin?",
+      "user_profile": {
+        "age": 3,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "nutritional deficiency",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "nutritional_deficiency",
+      "complexity": "high",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 3,
+      "user_query": "My 4-year-old doesn't like vegetables. What Tamil food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 4,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "picky_eater",
+        "goal": "picky eating",
+        "constraints": [
+          "picky_eater",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "high",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 4,
+      "user_query": "My toddler is constipated. What Odia foods help with digestion?",
+      "user_profile": {
+        "age": 7,
+        "age_group": "children",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "digestive health",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "low",
+      "expected_elements": [
+        "odia_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 5,
+      "user_query": "My 6-year-old loves sweets. What healthy Punjabi sweet options can I give?",
+      "user_profile": {
+        "age": 6,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "healthy alternatives",
+        "constraints": [
+          "picky_eater",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "healthy_alternatives",
+      "complexity": "low",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 6,
+      "user_query": "My toddler is constipated. What Kannada foods help with digestion?",
+      "user_profile": {
+        "age": 3,
+        "age_group": "children",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "allergies",
+        "goal": "digestive health",
+        "constraints": [
+          "school_requirements",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 7,
+      "user_query": "My toddler is constipated. What Tamil foods help with digestion?",
+      "user_profile": {
+        "age": 6,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "picky_eater",
+        "goal": "digestive health",
+        "constraints": [
+          "picky_eater",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 8,
+      "user_query": "What Punjabi snacks are good for my 9-year-old's school tiffin?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "healthy",
+        "goal": "school nutrition",
+        "constraints": [
+          "budget_conscious",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "school_nutrition",
+      "complexity": "low",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 9,
+      "user_query": "What finger foods from Telugu cuisine are good for my 8-year-old's birthday party?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "special occasion",
+        "constraints": [
+          "school_requirements",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "low",
+      "expected_elements": [
+        "telugu_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 10,
+      "user_query": "What Punjabi breakfast can I give my 7-year-old for energy?",
+      "user_profile": {
+        "age": 7,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "energy nutrition",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 11,
+      "user_query": "My 8-year-old is allergic to nuts. What safe Tamil snacks can I make?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "food allergies",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "food_allergies",
+      "complexity": "medium",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 12,
+      "user_query": "What finger foods from Tamil cuisine are good for my 8-year-old's birthday party?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active",
+        "goal": "special occasion",
+        "constraints": [
+          "school_requirements",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "high",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 13,
+      "user_query": "My 6-year-old doesn't like vegetables. What Bengali food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 6,
+        "age_group": "children",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "picky eating",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "low",
+      "expected_elements": [
+        "bengali_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 14,
+      "user_query": "My 6-year-old loves sweets. What healthy Tamil sweet options can I give?",
+      "user_profile": {
+        "age": 6,
+        "age_group": "children",
+        "culture": "Tamil",
+        "location": "Tamil_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "healthy alternatives",
+        "constraints": [
+          "picky_eater",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "healthy_alternatives",
+      "complexity": "low",
+      "expected_elements": [
+        "tamil_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 15,
+      "user_query": "My 11-year-old is underweight. What Malayalam foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 11,
+        "age_group": "children",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "underweight",
+        "goal": "weight management",
+        "constraints": [
+          "picky_eater",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 16,
+      "user_query": "What finger foods from Malayalam cuisine are good for my 8-year-old's birthday party?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "special occasion",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "special_occasion",
+      "complexity": "low",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 17,
+      "user_query": "My 7-year-old doesn't like vegetables. What Bengali food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 7,
+        "age_group": "children",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "picky_eater",
+        "goal": "picky eating",
+        "constraints": [
+          "time_limited",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 18,
+      "user_query": "My 8-year-old is underweight. What Punjabi foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 8,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "allergies",
+        "goal": "weight management",
+        "constraints": [
+          "picky_eater",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "low",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 19,
+      "user_query": "What iron-rich Punjabi foods can I give my 5-year-old who has low hemoglobin?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "underweight",
+        "goal": "nutritional deficiency",
+        "constraints": [
+          "budget_conscious",
+          "time_limited"
+        ]
+      },
+      "scenario_type": "nutritional_deficiency",
+      "complexity": "medium",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 20,
+      "user_query": "What iron-rich Kannada foods can I give my 9-year-old who has low hemoglobin?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "nutritional deficiency",
+        "constraints": [
+          "picky_eater",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "nutritional_deficiency",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 21,
+      "user_query": "My 11-year-old doesn't like vegetables. What Gujarati food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 11,
+        "age_group": "children",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "underweight",
+        "goal": "picky eating",
+        "constraints": [
+          "school_requirements",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 22,
+      "user_query": "My 9-year-old doesn't like vegetables. What Malayalam food can I make that's healthy and tasty?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "picky eating",
+        "constraints": [
+          "budget_conscious",
+          "picky_eater"
+        ]
+      },
+      "scenario_type": "picky_eating",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 23,
+      "user_query": "What Assamese breakfast can I give my 5-year-old for energy?",
+      "user_profile": {
+        "age": 5,
+        "age_group": "children",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "underweight",
+        "goal": "energy nutrition",
+        "constraints": [
+          "time_limited",
+          "school_requirements"
+        ]
+      },
+      "scenario_type": "energy_nutrition",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 24,
+      "user_query": "My 9-year-old is allergic to nuts. What safe Telugu snacks can I make?",
+      "user_profile": {
+        "age": 9,
+        "age_group": "children",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "allergies",
+        "goal": "food allergies",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "food_allergies",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    },
+    {
+      "query_id": 25,
+      "user_query": "My 4-year-old is underweight. What Assamese foods can help gain healthy weight?",
+      "user_profile": {
+        "age": 4,
+        "age_group": "children",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "healthy",
+        "goal": "weight management",
+        "constraints": [
+          "time_limited",
+          "budget_conscious"
+        ]
+      },
+      "scenario_type": "weight_management",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "child_friendly",
+        "nutritional_focus",
+        "age_appropriate"
+      ]
+    }
+  ]
+}

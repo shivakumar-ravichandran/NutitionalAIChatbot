@@ -1,0 +1,145 @@
+{
+  "evaluation_template": {
+    "query_id": null,
+    "evaluator_id": null,
+    "evaluation_date": null,
+    "response_text": null,
+    "scores": {
+      "cultural_appropriateness": {
+        "food_authenticity": null,
+        "cultural_sensitivity": null,
+        "local_availability": null,
+        "language_appropriateness": null,
+        "total_score": null,
+        "weighted_score": null
+      },
+      "age_specific_communication": {
+        "language_complexity": null,
+        "tone_appropriateness": null,
+        "content_structure": null,
+        "engagement_factors": null,
+        "total_score": null,
+        "weighted_score": null
+      },
+      "nutritional_accuracy": {
+        "nutritional_completeness": null,
+        "safety_compliance": null,
+        "portion_appropriateness": null,
+        "scientific_accuracy": null,
+        "total_score": null,
+        "weighted_score": null
+      },
+      "response_quality": {
+        "query_understanding": null,
+        "completeness": null,
+        "practicality": null,
+        "personalization": null,
+        "total_score": null,
+        "weighted_score": null
+      }
+    },
+    "overall_score": null,
+    "qualitative_feedback": {
+      "strengths": [],
+      "weaknesses": [],
+      "improvement_suggestions": [],
+      "cultural_notes": null,
+      "age_appropriateness_notes": null,
+      "nutritional_concerns": null
+    },
+    "recommendation": {
+      "deployment_ready": null,
+      "requires_improvement": null,
+      "major_revision_needed": null
+    }
+  },
+  "batch_evaluation_summary": {
+    "evaluation_batch_id": null,
+    "total_queries_evaluated": null,
+    "evaluation_period": {
+      "start_date": null,
+      "end_date": null
+    },
+    "aggregate_scores": {
+      "cultural_appropriateness": {
+        "mean": null,
+        "median": null,
+        "std_dev": null,
+        "min": null,
+        "max": null
+      },
+      "age_specific_communication": {
+        "mean": null,
+        "median": null,
+        "std_dev": null,
+        "min": null,
+        "max": null
+      },
+      "nutritional_accuracy": {
+        "mean": null,
+        "median": null,
+        "std_dev": null,
+        "min": null,
+        "max": null
+      },
+      "response_quality": {
+        "mean": null,
+        "median": null,
+        "std_dev": null,
+        "min": null,
+        "max": null
+      },
+      "overall": {
+        "mean": null,
+        "median": null,
+        "std_dev": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "performance_by_category": {
+      "age_groups": {
+        "children": null,
+        "teenagers": null,
+        "adults": null,
+        "elderly": null
+      },
+      "cultures": {
+        "Tamil": null,
+        "Punjabi": null,
+        "Bengali": null,
+        "Gujarati": null,
+        "Maharashtrian": null,
+        "Malayalam": null,
+        "Assamese": null,
+        "Odia": null,
+        "Telugu": null,
+        "Kannada": null
+      },
+      "scenario_types": {
+        "weight_management": null,
+        "diabetes_management": null,
+        "child_nutrition": null,
+        "elderly_health": null,
+        "cultural_adaptation": null,
+        "special_diets": null
+      },
+      "complexity_levels": {
+        "low": null,
+        "medium": null,
+        "high": null
+      }
+    },
+    "quality_distribution": {
+      "excellent": null,
+      "good": null,
+      "acceptable": null,
+      "poor": null
+    },
+    "deployment_readiness": {
+      "ready_for_deployment": null,
+      "needs_minor_improvements": null,
+      "requires_major_revision": null
+    }
+  }
+}

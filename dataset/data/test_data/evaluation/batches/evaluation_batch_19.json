@@ -1,0 +1,659 @@
+{
+  "batch_info": {
+    "batch_number": 19,
+    "queries_count": 25,
+    "query_range": "451-475"
+  },
+  "queries": [
+    {
+      "query_id": 451,
+      "user_query": "I'm 72 and forgetting things. What Maharashtrian brain foods support memory?",
+      "user_profile": {
+        "age": 72,
+        "age_group": "elderly",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active_senior",
+        "goal": "memory support",
+        "constraints": [
+          "medication_interactions",
+          "physical_limitations",
+          "fixed_income"
+        ]
+      },
+      "scenario_type": "memory_support",
+      "complexity": "high",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 452,
+      "user_query": "I'm 67 with diabetes for 20 years. What Assamese foods keep my sugar stable?",
+      "user_profile": {
+        "age": 67,
+        "age_group": "elderly",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active_senior",
+        "goal": "diabetes elderly",
+        "constraints": [
+          "fixed_income",
+          "medication_interactions",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "diabetes_elderly",
+      "complexity": "high",
+      "expected_elements": [
+        "assamese_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 453,
+      "user_query": "I'm 66 and cooking is hard now. What simple Punjabi recipes work?",
+      "user_profile": {
+        "age": 66,
+        "age_group": "elderly",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "frail",
+        "goal": "easy cooking",
+        "constraints": [
+          "fixed_income",
+          "reduced_appetite",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "easy_cooking",
+      "complexity": "high",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 454,
+      "user_query": "I'm 84 with osteoporosis. What Telugu foods strengthen bones at my age?",
+      "user_profile": {
+        "age": 84,
+        "age_group": "elderly",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "bone health",
+        "constraints": [
+          "fixed_income",
+          "medication_interactions",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "bone_health",
+      "complexity": "high",
+      "expected_elements": [
+        "telugu_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 455,
+      "user_query": "I'm 78 with diabetes for 20 years. What Maharashtrian foods keep my sugar stable?",
+      "user_profile": {
+        "age": 78,
+        "age_group": "elderly",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "frail",
+        "goal": "diabetes elderly",
+        "constraints": [
+          "fixed_income",
+          "reduced_appetite",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "diabetes_elderly",
+      "complexity": "high",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 456,
+      "user_query": "I'm 72 and cooking is hard now. What simple Punjabi recipes work?",
+      "user_profile": {
+        "age": 72,
+        "age_group": "elderly",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "easy cooking",
+        "constraints": [
+          "physical_limitations",
+          "reduced_appetite",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "easy_cooking",
+      "complexity": "high",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 457,
+      "user_query": "I'm 64 and cooking is hard now. What simple Kannada recipes work?",
+      "user_profile": {
+        "age": 64,
+        "age_group": "elderly",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "easy cooking",
+        "constraints": [
+          "fixed_income",
+          "reduced_appetite",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "easy_cooking",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 458,
+      "user_query": "I'm 69 and cooking is hard now. What simple Bengali recipes work?",
+      "user_profile": {
+        "age": 69,
+        "age_group": "elderly",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "frail",
+        "goal": "easy cooking",
+        "constraints": [
+          "medication_interactions",
+          "fixed_income",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "easy_cooking",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 459,
+      "user_query": "I'm 64 with digestive issues. What soft Gujarati foods are easy on the stomach?",
+      "user_profile": {
+        "age": 64,
+        "age_group": "elderly",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "digestive health",
+        "constraints": [
+          "reduced_appetite",
+          "fixed_income",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 460,
+      "user_query": "I'm 87 on pension. What affordable Maharashtrian meals are still healthy?",
+      "user_profile": {
+        "age": 87,
+        "age_group": "elderly",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active_senior",
+        "goal": "budget fixed income",
+        "constraints": [
+          "physical_limitations",
+          "reduced_appetite",
+          "fixed_income"
+        ]
+      },
+      "scenario_type": "budget_fixed_income",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 461,
+      "user_query": "I'm 66 with osteoporosis. What Gujarati foods strengthen bones at my age?",
+      "user_profile": {
+        "age": 66,
+        "age_group": "elderly",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "bone health",
+        "constraints": [
+          "reduced_appetite",
+          "fixed_income",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "bone_health",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 462,
+      "user_query": "I'm 87 with heart problems. What low-sodium Kannada foods can I still enjoy?",
+      "user_profile": {
+        "age": 87,
+        "age_group": "elderly",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "heart health",
+        "constraints": [
+          "reduced_appetite",
+          "fixed_income",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "heart_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "kannada_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 463,
+      "user_query": "I'm 74 with digestive issues. What soft Gujarati foods are easy on the stomach?",
+      "user_profile": {
+        "age": 74,
+        "age_group": "elderly",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "digestive health",
+        "constraints": [
+          "medication_interactions",
+          "physical_limitations",
+          "fixed_income"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 464,
+      "user_query": "I'm 76 on pension. What affordable Odia meals are still healthy?",
+      "user_profile": {
+        "age": 76,
+        "age_group": "elderly",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "active_senior",
+        "goal": "budget fixed income",
+        "constraints": [
+          "fixed_income",
+          "medication_interactions",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "budget_fixed_income",
+      "complexity": "medium",
+      "expected_elements": [
+        "odia_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 465,
+      "user_query": "I'm 86 with osteoporosis. What Malayalam foods strengthen bones at my age?",
+      "user_profile": {
+        "age": 86,
+        "age_group": "elderly",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "bone health",
+        "constraints": [
+          "reduced_appetite",
+          "medication_interactions",
+          "fixed_income"
+        ]
+      },
+      "scenario_type": "bone_health",
+      "complexity": "high",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 466,
+      "user_query": "I'm 72 with diabetes for 20 years. What Telugu foods keep my sugar stable?",
+      "user_profile": {
+        "age": 72,
+        "age_group": "elderly",
+        "culture": "Telugu",
+        "location": "Telugu_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "diabetes elderly",
+        "constraints": [
+          "physical_limitations",
+          "medication_interactions",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "diabetes_elderly",
+      "complexity": "medium",
+      "expected_elements": [
+        "telugu_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 467,
+      "user_query": "I'm 66 with digestive issues. What soft Maharashtrian foods are easy on the stomach?",
+      "user_profile": {
+        "age": 66,
+        "age_group": "elderly",
+        "culture": "Maharashtrian",
+        "location": "Maharashtrian_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "digestive health",
+        "constraints": [
+          "physical_limitations",
+          "fixed_income",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "maharashtrian_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 468,
+      "user_query": "I'm 61 with heart problems. What low-sodium Assamese foods can I still enjoy?",
+      "user_profile": {
+        "age": 61,
+        "age_group": "elderly",
+        "culture": "Assamese",
+        "location": "Assamese_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "heart health",
+        "constraints": [
+          "medication_interactions",
+          "physical_limitations",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "heart_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "assamese_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 469,
+      "user_query": "I'm 87 with digestive issues. What soft Punjabi foods are easy on the stomach?",
+      "user_profile": {
+        "age": 87,
+        "age_group": "elderly",
+        "culture": "Punjabi",
+        "location": "Punjabi_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active_senior",
+        "goal": "digestive health",
+        "constraints": [
+          "medication_interactions",
+          "reduced_appetite",
+          "fixed_income"
+        ]
+      },
+      "scenario_type": "digestive_health",
+      "complexity": "high",
+      "expected_elements": [
+        "punjabi_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 470,
+      "user_query": "I'm 67 on pension. What affordable Gujarati meals are still healthy?",
+      "user_profile": {
+        "age": 67,
+        "age_group": "elderly",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "budget fixed income",
+        "constraints": [
+          "physical_limitations",
+          "reduced_appetite",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "budget_fixed_income",
+      "complexity": "high",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 471,
+      "user_query": "I'm 85 with heart problems. What low-sodium Malayalam foods can I still enjoy?",
+      "user_profile": {
+        "age": 85,
+        "age_group": "elderly",
+        "culture": "Malayalam",
+        "location": "Malayalam_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "heart health",
+        "constraints": [
+          "reduced_appetite",
+          "physical_limitations",
+          "medication_interactions"
+        ]
+      },
+      "scenario_type": "heart_health",
+      "complexity": "medium",
+      "expected_elements": [
+        "malayalam_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 472,
+      "user_query": "I'm 81 with diabetes for 20 years. What Odia foods keep my sugar stable?",
+      "user_profile": {
+        "age": 81,
+        "age_group": "elderly",
+        "culture": "Odia",
+        "location": "Odia_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "frail",
+        "goal": "diabetes elderly",
+        "constraints": [
+          "medication_interactions",
+          "reduced_appetite",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "diabetes_elderly",
+      "complexity": "high",
+      "expected_elements": [
+        "odia_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 473,
+      "user_query": "I'm 79 and cooking is hard now. What simple Bengali recipes work?",
+      "user_profile": {
+        "age": 79,
+        "age_group": "elderly",
+        "culture": "Bengali",
+        "location": "Bengali_region",
+        "dietary_preference": "non_vegetarian",
+        "health_status": "multiple_conditions",
+        "goal": "easy cooking",
+        "constraints": [
+          "reduced_appetite",
+          "fixed_income",
+          "physical_limitations"
+        ]
+      },
+      "scenario_type": "easy_cooking",
+      "complexity": "high",
+      "expected_elements": [
+        "bengali_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 474,
+      "user_query": "I'm 75 on pension. What affordable Gujarati meals are still healthy?",
+      "user_profile": {
+        "age": 75,
+        "age_group": "elderly",
+        "culture": "Gujarati",
+        "location": "Gujarati_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "active_senior",
+        "goal": "budget fixed income",
+        "constraints": [
+          "fixed_income",
+          "medication_interactions",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "budget_fixed_income",
+      "complexity": "medium",
+      "expected_elements": [
+        "gujarati_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    },
+    {
+      "query_id": 475,
+      "user_query": "I'm 72 on pension. What affordable Kannada meals are still healthy?",
+      "user_profile": {
+        "age": 72,
+        "age_group": "elderly",
+        "culture": "Kannada",
+        "location": "Kannada_region",
+        "dietary_preference": "vegetarian",
+        "health_status": "chronic_disease",
+        "goal": "budget fixed income",
+        "constraints": [
+          "physical_limitations",
+          "medication_interactions",
+          "reduced_appetite"
+        ]
+      },
+      "scenario_type": "budget_fixed_income",
+      "complexity": "high",
+      "expected_elements": [
+        "kannada_cuisine",
+        "respectful_tone",
+        "health_focused",
+        "simple_explanations"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Frontend requirements for Nutritional AI Chatbot Streamlit Interface
+# Enhanced user experience with modern UI components
+
+# Core Streamlit and web framework
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Data processing and visualization
+pandas>=1.5.0
+numpy>=1.21.0
+plotly>=5.10.0
+
+# HTTP requests and API communication
+requests>=2.28.0
+httpx>=0.23.0
+
+# Network graph visualization
+networkx>=2.8.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# Image processing and utilities
+Pillow>=9.0.0
+
+# Enhanced UI components (using compatible versions)
+streamlit-extras>=0.2.7
+streamlit-aggrid>=0.3.3
+streamlit-plotly-events>=0.0.6
+
+# Authentication and security
+streamlit-authenticator>=0.2.1
+
+# File handling and validation
+validators>=0.20.0
+
+# Development and testing
+pytest>=7.0.0
+
+# Optional: Install these separately if needed
+# streamlit-chat>=0.0.2        # Enhanced chat components
+# streamlit-lottie>=0.0.3      # Animations
+# streamlit-folium>=0.11.0     # Interactive maps for location features
+
+# For Windows compatibility
+pywin32>=227; sys_platform == "win32"

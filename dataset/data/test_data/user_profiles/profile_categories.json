@@ -1,0 +1,228 @@
+{
+  "age_groups": {
+    "children": {
+      "range": "3-12 years",
+      "subcategories": {
+        "toddlers": "3-5 years",
+        "school_age": "6-12 years"
+      },
+      "communication_style": "playful, educational, emoji-rich",
+      "nutritional_focus": "growth, development, picky eating"
+    },
+    "teenagers": {
+      "range": "13-17 years",
+      "subcategories": {
+        "early_teens": "13-15 years",
+        "late_teens": "16-17 years"
+      },
+      "communication_style": "engaging, motivational, peer-aware",
+      "nutritional_focus": "growth spurts, body image, independence"
+    },
+    "adults": {
+      "range": "18-59 years",
+      "subcategories": {
+        "young_adults": "18-29 years",
+        "middle_aged": "30-59 years"
+      },
+      "communication_style": "professional, informative, goal-oriented",
+      "nutritional_focus": "lifestyle management, goals achievement"
+    },
+    "elderly": {
+      "range": "60+ years",
+      "subcategories": {
+        "active_seniors": "60-74 years",
+        "senior_seniors": "75+ years"
+      },
+      "communication_style": "respectful, clear, health-focused",
+      "nutritional_focus": "health maintenance, chronic condition management"
+    }
+  },
+  "cultural_backgrounds": {
+    "north_indian": {
+      "states": [
+        "Punjab",
+        "Haryana",
+        "Delhi",
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Himachal Pradesh"
+      ],
+      "cuisines": ["Punjabi", "Rajasthani", "Mughlai", "Awadhi"],
+      "dietary_patterns": [
+        "wheat-based",
+        "dairy-rich",
+        "ghee usage",
+        "seasonal vegetables"
+      ]
+    },
+    "south_indian": {
+      "states": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Kerala",
+        "Andhra Pradesh",
+        "Telangana"
+      ],
+      "cuisines": ["Tamil", "Malayalam", "Telugu", "Kannada"],
+      "dietary_patterns": [
+        "rice-based",
+        "coconut usage",
+        "fermented foods",
+        "seafood"
+      ]
+    },
+    "western_indian": {
+      "states": ["Gujarat", "Maharashtra", "Goa", "Rajasthan"],
+      "cuisines": ["Gujarati", "Maharashtrian", "Goan", "Marwari"],
+      "dietary_patterns": [
+        "varied grains",
+        "jaggery usage",
+        "pickles",
+        "coastal influences"
+      ]
+    },
+    "eastern_indian": {
+      "states": ["West Bengal", "Odisha", "Jharkhand", "Bihar"],
+      "cuisines": ["Bengali", "Odia", "Bihari"],
+      "dietary_patterns": [
+        "rice and fish",
+        "sweets",
+        "mustard oil",
+        "seasonal fruits"
+      ]
+    },
+    "northeastern_indian": {
+      "states": [
+        "Assam",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Tripura",
+        "Arunachal Pradesh",
+        "Sikkim"
+      ],
+      "cuisines": ["Assamese", "Naga", "Manipuri"],
+      "dietary_patterns": [
+        "bamboo shoots",
+        "fermented items",
+        "minimal spices",
+        "organic foods"
+      ]
+    },
+    "central_indian": {
+      "states": ["Madhya Pradesh", "Chhattisgarh"],
+      "cuisines": ["Malwa", "Bundelkhand"],
+      "dietary_patterns": [
+        "wheat and rice",
+        "tribal influences",
+        "forest produce"
+      ]
+    }
+  },
+  "dietary_preferences": {
+    "vegetarian": {
+      "types": ["lacto-vegetarian", "pure_vegetarian", "jain_vegetarian"],
+      "protein_sources": ["legumes", "dairy", "nuts", "seeds"],
+      "considerations": [
+        "B12 supplementation",
+        "iron absorption",
+        "protein combining"
+      ]
+    },
+    "non_vegetarian": {
+      "types": ["omnivore", "pescatarian", "poultry_only"],
+      "protein_sources": ["meat", "fish", "poultry", "eggs"],
+      "considerations": ["balanced intake", "cooking methods", "freshness"]
+    },
+    "vegan": {
+      "types": ["strict_vegan", "plant_based"],
+      "protein_sources": ["legumes", "nuts", "seeds", "quinoa"],
+      "considerations": ["B12", "vitamin D", "omega-3", "calcium"]
+    },
+    "special_diets": {
+      "types": ["keto", "paleo", "intermittent_fasting", "raw_food"],
+      "considerations": [
+        "medical supervision",
+        "nutrient adequacy",
+        "sustainability"
+      ]
+    }
+  },
+  "health_conditions": {
+    "metabolic": {
+      "conditions": [
+        "diabetes_type1",
+        "diabetes_type2",
+        "pre_diabetes",
+        "metabolic_syndrome"
+      ],
+      "dietary_focus": [
+        "carbohydrate control",
+        "glycemic index",
+        "portion control"
+      ]
+    },
+    "cardiovascular": {
+      "conditions": ["hypertension", "high_cholesterol", "heart_disease"],
+      "dietary_focus": [
+        "sodium restriction",
+        "saturated fat control",
+        "fiber increase"
+      ]
+    },
+    "digestive": {
+      "conditions": ["IBS", "GERD", "celiac_disease", "lactose_intolerance"],
+      "dietary_focus": [
+        "trigger avoidance",
+        "digestibility",
+        "nutrient absorption"
+      ]
+    },
+    "weight_related": {
+      "conditions": ["obesity", "underweight", "eating_disorders"],
+      "dietary_focus": [
+        "calorie balance",
+        "nutrient density",
+        "behavioral support"
+      ]
+    },
+    "age_related": {
+      "conditions": ["osteoporosis", "arthritis", "cognitive_decline"],
+      "dietary_focus": ["bone health", "anti-inflammatory", "brain health"]
+    },
+    "women_health": {
+      "conditions": ["pregnancy", "breastfeeding", "menopause", "PCOS"],
+      "dietary_focus": ["folate", "iron", "calcium", "hormonal balance"]
+    }
+  },
+  "goals": {
+    "health_maintenance": [
+      "general_wellness",
+      "disease_prevention",
+      "immune_support"
+    ],
+    "weight_management": ["weight_loss", "weight_gain", "muscle_building"],
+    "performance": ["athletic_performance", "endurance", "recovery"],
+    "life_stage": ["pregnancy_nutrition", "child_growth", "aging_gracefully"],
+    "condition_management": [
+      "diabetes_control",
+      "heart_health",
+      "digestive_health"
+    ],
+    "lifestyle": ["busy_schedule", "budget_conscious", "convenience_focused"]
+  },
+  "constraints": {
+    "time": ["very_busy", "limited_cooking_time", "meal_prep_focused"],
+    "budget": ["low_budget", "moderate_budget", "cost_conscious"],
+    "skill": ["beginner_cook", "intermediate_cook", "advanced_cook"],
+    "equipment": ["basic_kitchen", "well_equipped", "minimal_equipment"],
+    "family": [
+      "single_person",
+      "couple",
+      "family_with_children",
+      "joint_family"
+    ],
+    "location": ["urban", "suburban", "rural", "remote_area"]
+  }
+}

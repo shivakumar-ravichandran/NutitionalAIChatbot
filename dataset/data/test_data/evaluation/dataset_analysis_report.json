@@ -1,0 +1,180 @@
+{
+  "dataset_info": {
+    "total_queries": 500,
+    "analysis_date": "2025-10-02T18:11:49.073309",
+    "dataset_path": "data/test_data/queries/comprehensive_test_dataset.json"
+  },
+  "basic_statistics": {
+    "total_queries": 500,
+    "age_distribution": {
+      "by_group": {
+        "children": 100,
+        "teenagers": 75,
+        "adults": 200,
+        "elderly": 125
+      },
+      "age_stats": {
+        "min_age": 3,
+        "max_age": 90,
+        "mean_age": 37.594,
+        "median_age": 31.5
+      }
+    },
+    "culture_distribution": {
+      "counts": {
+        "Odia": 43,
+        "Punjabi": 46,
+        "Tamil": 61,
+        "Kannada": 58,
+        "Telugu": 51,
+        "Bengali": 46,
+        "Malayalam": 43,
+        "Gujarati": 63,
+        "Assamese": 50,
+        "Maharashtrian": 39
+      },
+      "percentages": {
+        "Odia": 8.6,
+        "Punjabi": 9.2,
+        "Tamil": 12.2,
+        "Kannada": 11.600000000000001,
+        "Telugu": 10.2,
+        "Bengali": 9.2,
+        "Malayalam": 8.6,
+        "Gujarati": 12.6,
+        "Assamese": 10.0,
+        "Maharashtrian": 7.8
+      },
+      "diversity_score": 10
+    },
+    "scenario_distribution": {
+      "counts": {
+        "digestive_health": 27,
+        "nutritional_deficiency": 6,
+        "picky_eating": 16,
+        "healthy_alternatives": 11,
+        "school_nutrition": 14,
+        "special_occasion": 11,
+        "energy_nutrition": 12,
+        "food_allergies": 7,
+        "weight_management": 29,
+        "athletic_nutrition": 7,
+        "independence": 10,
+        "peer_pressure": 15,
+        "body_image": 16,
+        "growth_spurt": 10,
+        "exam_stress": 7,
+        "acne_nutrition": 12,
+        "sports_performance": 5,
+        "hypertension": 21,
+        "PCOS_management": 24,
+        "shift_work": 22,
+        "budget_meals": 15,
+        "pregnancy_nutrition": 22,
+        "entertaining": 21,
+        "athletic_performance": 17,
+        "diabetes_management": 16,
+        "weight_loss": 21,
+        "appetite_loss": 12,
+        "bone_health": 19,
+        "diabetes_elderly": 19,
+        "memory_support": 9,
+        "heart_health": 13,
+        "budget_fixed_income": 21,
+        "easy_cooking": 13
+      },
+      "unique_scenarios": 33
+    },
+    "complexity_distribution": {
+      "medium": 269,
+      "high": 200,
+      "low": 31
+    },
+    "dietary_preference_distribution": {
+      "non_vegetarian": 194,
+      "vegetarian": 194,
+      "flexitarian": 24,
+      "vegan": 42,
+      "pescatarian": 46
+    }
+  },
+  "health_conditions": {
+    "active": 18,
+    "healthy": 72,
+    "picky_eater": 19,
+    "allergies": 23,
+    "underweight": 17,
+    "stressed": 13,
+    "acne": 16,
+    "growing": 17,
+    "athletic": 17,
+    "hypertensive": 40,
+    "overweight": 32,
+    "PCOS": 37,
+    "diabetic": 28,
+    "pregnant": 26,
+    "frail": 34,
+    "multiple_conditions": 31,
+    "chronic_disease": 36,
+    "active_senior": 24
+  },
+  "demographic_cross_analysis": {
+    "age_culture_matrix": {
+      "children": {
+        "Odia": 11,
+        "Punjabi": 9,
+        "Tamil": 11,
+        "Kannada": 10,
+        "Telugu": 11,
+        "Bengali": 9,
+        "Malayalam": 9,
+        "Gujarati": 13,
+        "Assamese": 10,
+        "Maharashtrian": 7
+      },
+      "teenagers": {
+        "Malayalam": 5,
+        "Gujarati": 8,
+        "Kannada": 9,
+        "Bengali": 10,
+        "Assamese": 13,
+        "Odia": 10,
+        "Telugu": 2,
+        "Tamil": 9,
+        "Maharashtrian": 6,
+        "Punjabi": 3
+      },
+      "adults": {
+        "Gujarati": 27,
+        "Punjabi": 18,
+        "Malayalam": 19,
+        "Telugu": 26,
+        "Assamese": 19,
+        "Maharashtrian": 16,
+        "Bengali": 19,
+        "Tamil": 22,
+        "Kannada": 21,
+        "Odia": 13
+      },
+      "elderly": {
+        "Bengali": 8,
+        "Tamil": 19,
+        "Punjabi": 16,
+        "Assamese": 8,
+        "Kannada": 18,
+        "Telugu": 12,
+        "Odia": 9,
+        "Gujarati": 15,
+        "Malayalam": 10,
+        "Maharashtrian": 10
+      }
+    },
+    "age_dietary_matrix": {},
+    "culture_health_matrix": {}
+  },
+  "coverage_gaps": {
+    "underrepresented_cultures": [],
+    "underrepresented_scenarios": [],
+    "missing_combinations": []
+  }
+}

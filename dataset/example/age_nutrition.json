@@ -1,0 +1,372 @@
+{
+  "age_specific_nutrition_guidelines": {
+    "infants": {
+      "0_6_months": {
+        "age_group": "Infant 0-6 months",
+        "min_age_months": 0,
+        "max_age_months": 6,
+        "calories_per_day": 485,
+        "protein_grams_per_day": 9.1,
+        "carbs_grams_per_day": 60,
+        "fat_grams_per_day": 31,
+        "vitamins": {
+          "Vitamin D": 10,
+          "Vitamin K": 2.0
+        },
+        "minerals": {
+          "Calcium": 210,
+          "Iron": 0.27,
+          "Zinc": 2
+        },
+        "recommended_foods": ["Breast milk", "Iron-fortified infant formula"],
+        "foods_to_avoid": ["Solid foods", "Honey", "Cow's milk as main drink"],
+        "special_considerations": [
+          "Exclusive breastfeeding recommended",
+          "Vitamin D supplementation may be needed",
+          "No water needed if exclusively breastfed"
+        ],
+        "meal_frequency": 8,
+        "water_intake_ml": 0
+      },
+      "6_12_months": {
+        "age_group": "Infant 6-12 months",
+        "min_age_months": 6,
+        "max_age_months": 12,
+        "calories_per_day": 700,
+        "protein_grams_per_day": 11,
+        "carbs_grams_per_day": 95,
+        "fat_grams_per_day": 30,
+        "vitamins": {
+          "Vitamin D": 10,
+          "Vitamin C": 50
+        },
+        "minerals": {
+          "Calcium": 270,
+          "Iron": 11,
+          "Zinc": 3
+        },
+        "recommended_foods": [
+          "Iron-fortified cereals",
+          "Pureed fruits and vegetables",
+          "Mashed cooked meat",
+          "Breast milk or formula"
+        ],
+        "foods_to_avoid": [
+          "Honey",
+          "Whole nuts",
+          "Large chunks of food",
+          "Cow's milk as main drink"
+        ],
+        "special_considerations": [
+          "Continue breastfeeding while introducing solids",
+          "Introduce one new food at a time",
+          "Watch for allergic reactions"
+        ],
+        "meal_frequency": 6,
+        "water_intake_ml": 200
+      }
+    },
+    "toddlers": {
+      "1_3_years": {
+        "age_group": "Toddler 1-3 years",
+        "min_age_months": 12,
+        "max_age_months": 36,
+        "calories_per_day": 1200,
+        "protein_grams_per_day": 13,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 35,
+        "vitamins": {
+          "Vitamin D": 15,
+          "Vitamin C": 15,
+          "Vitamin A": 300
+        },
+        "minerals": {
+          "Calcium": 700,
+          "Iron": 7,
+          "Zinc": 3
+        },
+        "recommended_foods": [
+          "Whole milk",
+          "Soft fruits",
+          "Cooked vegetables",
+          "Small pieces of meat",
+          "Whole grain cereals"
+        ],
+        "foods_to_avoid": [
+          "Hard candies",
+          "Whole nuts",
+          "Popcorn",
+          "Large chunks of food"
+        ],
+        "special_considerations": [
+          "Transition to family foods",
+          "Monitor for choking hazards",
+          "Establish regular meal times"
+        ],
+        "meal_frequency": 5,
+        "snack_frequency": 2,
+        "water_intake_ml": 1000,
+        "portion_sizes": {
+          "Grains": "1/4 to 1/2 cup",
+          "Vegetables": "1/4 to 1/2 cup",
+          "Fruits": "1/4 to 1/2 cup",
+          "Dairy": "1/2 cup milk",
+          "Protein": "1/2 to 1 oz"
+        }
+      }
+    },
+    "preschoolers": {
+      "3_5_years": {
+        "age_group": "Preschooler 3-5 years",
+        "min_age_months": 36,
+        "max_age_months": 60,
+        "calories_per_day": 1600,
+        "protein_grams_per_day": 19,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 35,
+        "vitamins": {
+          "Vitamin D": 15,
+          "Vitamin C": 25,
+          "Vitamin A": 400
+        },
+        "minerals": {
+          "Calcium": 1000,
+          "Iron": 10,
+          "Zinc": 5
+        },
+        "recommended_foods": [
+          "Variety of fruits and vegetables",
+          "Whole grains",
+          "Lean proteins",
+          "Low-fat dairy"
+        ],
+        "foods_to_avoid": [
+          "Excessive sweets",
+          "High-sodium processed foods",
+          "Sugary beverages"
+        ],
+        "special_considerations": [
+          "Encourage trying new foods",
+          "Involve in meal preparation",
+          "Establish healthy eating patterns"
+        ],
+        "meal_frequency": 3,
+        "snack_frequency": 2,
+        "water_intake_ml": 1200,
+        "common_deficiencies": ["Iron", "Vitamin D"]
+      }
+    },
+    "school_age": {
+      "6_12_years": {
+        "age_group": "School age 6-12 years",
+        "min_age_months": 72,
+        "max_age_months": 144,
+        "calories_per_day": 2000,
+        "protein_grams_per_day": 34,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 35,
+        "vitamins": {
+          "Vitamin D": 15,
+          "Vitamin C": 45,
+          "Vitamin A": 600
+        },
+        "minerals": {
+          "Calcium": 1000,
+          "Iron": 10,
+          "Zinc": 5
+        },
+        "recommended_foods": [
+          "Whole grains",
+          "Lean proteins",
+          "Calcium-rich foods",
+          "Fruits and vegetables"
+        ],
+        "foods_to_avoid": [
+          "Fast food",
+          "Sugary beverages",
+          "Excessive processed snacks"
+        ],
+        "special_considerations": [
+          "Support rapid growth periods",
+          "Emphasize breakfast importance",
+          "Encourage physical activity"
+        ],
+        "meal_frequency": 3,
+        "snack_frequency": 2,
+        "water_intake_ml": 1600,
+        "developmental_needs": [
+          "Adequate nutrition for cognitive development",
+          "Calcium for bone growth",
+          "Iron for increased blood volume"
+        ]
+      }
+    },
+    "teenagers": {
+      "13_18_years": {
+        "age_group": "Teenager 13-18 years",
+        "min_age_months": 156,
+        "max_age_months": 216,
+        "calories_per_day": 2400,
+        "protein_grams_per_day": 52,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 35,
+        "vitamins": {
+          "Vitamin D": 15,
+          "Vitamin C": 75,
+          "Vitamin A": 900,
+          "Folate": 400
+        },
+        "minerals": {
+          "Calcium": 1300,
+          "Iron": 15,
+          "Zinc": 9
+        },
+        "recommended_foods": [
+          "High-energy nutrient-dense foods",
+          "Protein for muscle development",
+          "Iron-rich foods",
+          "Calcium for bone health"
+        ],
+        "foods_to_avoid": [
+          "Excessive caffeine",
+          "Energy drinks",
+          "Restrictive dieting"
+        ],
+        "special_considerations": [
+          "Support rapid growth and development",
+          "Address increased appetite",
+          "Promote positive body image"
+        ],
+        "meal_frequency": 3,
+        "snack_frequency": 2,
+        "water_intake_ml": 2000,
+        "health_risks": [
+          "Eating disorders",
+          "Iron deficiency",
+          "Inadequate calcium intake"
+        ]
+      }
+    },
+    "adults": {
+      "19_50_years": {
+        "age_group": "Adult 19-50 years",
+        "min_age_months": 228,
+        "max_age_months": 600,
+        "calories_per_day": 2200,
+        "protein_grams_per_day": 50,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 35,
+        "vitamins": {
+          "Vitamin D": 15,
+          "Vitamin C": 90,
+          "Vitamin A": 900,
+          "Folate": 400
+        },
+        "minerals": {
+          "Calcium": 1000,
+          "Iron": 18,
+          "Zinc": 8
+        },
+        "recommended_foods": [
+          "Balanced variety from all food groups",
+          "Omega-3 rich foods",
+          "Whole grains",
+          "Lean proteins"
+        ],
+        "foods_to_avoid": [
+          "Excessive alcohol",
+          "High-sodium processed foods",
+          "Trans fats"
+        ],
+        "special_considerations": [
+          "Establish lifelong healthy habits",
+          "Focus on chronic disease prevention",
+          "Maintain healthy weight"
+        ],
+        "meal_frequency": 3,
+        "water_intake_ml": 2500
+      }
+    },
+    "seniors": {
+      "70_plus": {
+        "age_group": "Senior 70+ years",
+        "min_age_months": 840,
+        "max_age_months": null,
+        "calories_per_day": 1800,
+        "protein_grams_per_day": 56,
+        "carbs_grams_per_day": 130,
+        "fat_grams_per_day": 30,
+        "vitamins": {
+          "Vitamin D": 20,
+          "Vitamin B12": 2.4,
+          "Vitamin C": 90
+        },
+        "minerals": {
+          "Calcium": 1200,
+          "Iron": 8,
+          "Zinc": 8
+        },
+        "recommended_foods": [
+          "Easily digestible foods",
+          "Protein-rich foods",
+          "Fortified foods for B12",
+          "Adequate fluids"
+        ],
+        "foods_to_avoid": [
+          "Hard-to-chew foods",
+          "Excessive salt",
+          "Undercooked foods"
+        ],
+        "special_considerations": [
+          "Address decreased appetite",
+          "Consider medication interactions",
+          "Ensure adequate hydration",
+          "Monitor for malnutrition"
+        ],
+        "meal_frequency": 4,
+        "water_intake_ml": 2000,
+        "common_deficiencies": ["Vitamin B12", "Vitamin D", "Protein"],
+        "health_risks": ["Malnutrition", "Dehydration", "Bone loss"]
+      }
+    }
+  },
+  "special_populations": {
+    "pregnant_women": {
+      "age_group": "Pregnant women",
+      "calories_per_day": 2500,
+      "protein_grams_per_day": 71,
+      "vitamins": {
+        "Folate": 600,
+        "Iron": 27,
+        "Calcium": 1000
+      },
+      "recommended_foods": [
+        "Folate-rich foods",
+        "Iron-rich foods",
+        "Dairy products",
+        "Lean proteins"
+      ],
+      "foods_to_avoid": [
+        "Raw fish and meat",
+        "Unpasteurized dairy",
+        "Alcohol",
+        "High-mercury fish"
+      ]
+    },
+    "lactating_women": {
+      "age_group": "Lactating women",
+      "calories_per_day": 2700,
+      "protein_grams_per_day": 71,
+      "vitamins": {
+        "Vitamin A": 1300,
+        "Vitamin C": 120
+      },
+      "water_intake_ml": 3000,
+      "recommended_foods": [
+        "Increased calories",
+        "Healthy fats",
+        "Adequate fluids"
+      ]
+    }
+  }
+}
